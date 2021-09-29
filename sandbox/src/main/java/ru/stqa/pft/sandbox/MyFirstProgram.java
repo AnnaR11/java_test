@@ -14,9 +14,7 @@ public class MyFirstProgram {
      Point p = new Point(5,6,7,8);
 
 
-     System.out.println("Расстояние между двумя точками" + "=" + distance(p));
+     System.out.println("Расстояние между двумя точками" + "=" + p.distance());
    }
-  public static double distance (Point p) {
-    return Math.sqrt((p.a - p.b) * (p.a - p.b) + (p.c - p.d) * (p.c - p.d));
-  }
+
 }
